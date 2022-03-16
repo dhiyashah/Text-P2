@@ -24,7 +24,7 @@ rect(titleX, titleY, titledisplayWidth, titledisplayHeight);
 fill(purple); //Ink, hexadecimal copied from Color Selector 
 textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference 
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASEMENT ]
-textFont(titleFont, 10); //Change the number until it fits
+textFont(titleFont, 60); //Change the number until it fits
 text(title, titleX, titleY, titledisplayWidth, titledisplayHeight); 
 fill(resetDefaultInk);
 //End Program 
